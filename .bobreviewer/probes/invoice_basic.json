@@ -1,0 +1,11 @@
+{
+  "schema_version": "1",
+  "target": "invoice.calculate_invoice",
+  "cases": [
+    {
+      "id": "invoice-small-discount",
+      "args": [105.26, 0.05],
+      "kwargs": {}
+    }
+  ]
+}
