@@ -1,0 +1,7 @@
+{
+  "schema_version": "1",
+  "base_branch": "main",
+  "python_env": ".venv/Scripts/python.exe",
+  "probe_dir": ".bobreviewer/probes",
+  "test_dir": "tests"
+}
