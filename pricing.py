@@ -1,6 +1,6 @@
 """pricing.py — sample project module for tax scenarios."""
 
-TAX_RATE = 0.10  # 10%
+TAX_RATE = 0.11  # 10%
 
 
 def calculate_price(base_price: float) -> float:
