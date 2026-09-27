@@ -1,0 +1,11 @@
+{
+  "schema_version": "1",
+  "target": "tax_tables.rate_for",
+  "cases": [
+    {
+      "id": "rate-id",
+      "args": ["ID"],
+      "kwargs": {}
+    }
+  ]
+}
