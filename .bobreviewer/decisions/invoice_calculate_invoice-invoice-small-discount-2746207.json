@@ -1,0 +1,18 @@
+{
+  "schema_version": "1",
+  "run_id": "f3f63573-4bf7-46b0-a36a-277c1f073039",
+  "repository": "https://github.com/kafiirgie/bobthereviewer-demo-prs.git",
+  "file_path": "invoice.py",
+  "symbol": "invoice.calculate_invoice",
+  "base_commit": "a4c603d6febb2b5e57f412bff8f1c0a3f29a9f37",
+  "head_commit": "27462079118cd41cd8a50c4a426c288cd93f5012",
+  "probe_file": ".bobreviewer/probes/invoice_basic.json",
+  "probe_hash": "673604eea9f5964205248a95d69024aa7e8ad6f71f6dbe7efeade1e707d0e614",
+  "case_id": "invoice-small-discount",
+  "observed_before": 100.0,
+  "observed_after": 99.99,
+  "verdict": "unintended",
+  "rationale": "Invoices must round to cents; flooring loses a cent",
+  "status": "proposed",
+  "timestamp": "2026-09-27T13:03:24.773167Z"
+}
