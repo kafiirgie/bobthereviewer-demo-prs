@@ -1,0 +1,18 @@
+{
+  "schema_version": "1",
+  "run_id": "7ddc2471-c504-46a5-b5e4-0a7f83e2af5c",
+  "repository": "https://github.com/kafiirgie/bobthereviewer-demo-prs.git",
+  "file_path": "pricing.py",
+  "symbol": "pricing.calculate_price",
+  "base_commit": "f04cdb842245d90b409c3286c18c5bc97ecdfda4",
+  "head_commit": "850a8946c3ddb1d1da35248244ad40e66b497073",
+  "probe_file": ".bobreviewer/probes/pricing_basic.json",
+  "probe_hash": "28fe8a0f8f9b16b92965ae98594c2ab689fa6973901c5186186ffafa6f531bab",
+  "case_id": "price-100",
+  "observed_before": 110.0,
+  "observed_after": 111.0,
+  "verdict": "intended",
+  "rationale": "Tax rate raised to 11 percent per the 2026 policy",
+  "status": "proposed",
+  "timestamp": "2026-09-27T13:07:10.296148Z"
+}
