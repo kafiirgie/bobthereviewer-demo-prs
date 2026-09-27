@@ -1,0 +1,11 @@
+{
+  "schema_version": "1",
+  "target": "pricing.calculate_price",
+  "cases": [
+    {
+      "id": "price-100",
+      "args": [100.0],
+      "kwargs": {}
+    }
+  ]
+}
